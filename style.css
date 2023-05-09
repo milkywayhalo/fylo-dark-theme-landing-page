@@ -1,0 +1,608 @@
+body {
+  background-color: hsl(218, 28%, 13%);
+  color: hsl(0, 0%, 100%);
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  margin: 0px;
+}
+
+.wrapper-container-content-main {
+  background-image: url("../fylo-dark-theme-landing-page-master/images/bg-curvy-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  margin: 5%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* top-nav */
+
+.topnav {
+  font-family: "Raleway", sans-serif;
+  overflow: hidden;
+  justify-content: space-between;
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.topnav img {
+  width: 15%;
+  height: 15%;
+}
+
+.topnav-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.topnav-navigation a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 20px;
+  font-weight: 100;
+}
+
+.topnav-navigation a:hover {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+/* main-part */
+
+.description-intro-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 80px;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: "Raleway", sans-serif;
+}
+
+.description-intro-img img {
+  margin-bottom: 45px;
+}
+
+.description-intro-heading {
+  text-align: center;
+  font-weight: 600;
+  font-size: 35px;
+  margin-bottom: 8%;
+}
+
+.description-intro-paragraph {
+  text-align: center;
+  font-weight: 300;
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+
+.button-get-started-intro {
+  text-align: center;
+  padding: 2%;
+  width: 30%;
+  background-image: linear-gradient(
+    to right,
+    hsl(176, 68%, 64%),
+    hsl(198, 60%, 50%)
+  );
+
+  border-radius: 30px;
+  font-size: 16px;
+}
+
+.button-get-started-intro:hover {
+  background: hsl(176, 68%, 64%);
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: 400px 400px;
+  grid-column-gap: 15%;
+  grid-row-gap: 15%;
+  margin: 30px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card img {
+  width: 15%;
+}
+
+.cards-item-text {
+  text-align: center;
+}
+
+.cards-item-text b {
+  font-size: medium;
+}
+
+.cards-item-text p {
+  font-size: 14px;
+}
+
+.cards-item img {
+  margin-bottom: 18px;
+}
+
+.explanation-container {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+}
+
+.explanation-container img {
+  width: 50%;
+}
+
+.explanation-heading {
+  font-size: 35px;
+}
+
+.explanation-link-container {
+  display: inline-flex;
+  color: hsl(176, 68%, 64%);
+  border-bottom: 1px solid hsl(176, 68%, 64%);
+  padding-bottom: 5px;
+  font-weight: 100;
+}
+.explanation-link-container img {
+  margin-left: 8px;
+  width: 30%;
+}
+
+.explanation-text {
+  padding-bottom: 30px;
+  padding-top: 35px;
+}
+
+.explanation-text li {
+  list-style: none;
+  padding-block-end: 10px;
+}
+
+.explanation-text a:hover {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.quote img {
+  margin-bottom: -110px;
+  margin-left: -10px;
+}
+
+.quotes-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+.quotes-container-elements {
+  padding-top: 30px;
+  padding-right: 20px;
+  padding-left: 25px;
+  padding-bottom: 15px;
+  margin-right: 40px;
+  background-color: hsl(219, 30%, 18%);
+  font-family: "Raleway", sans-serif;
+}
+
+.quotes-items-text {
+  text-align: left;
+  color: white;
+  margin-bottom: 27px;
+}
+
+.quotes-items-person {
+  margin: 0px;
+}
+
+.quotes-items-person img {
+  margin-right: 15px;
+  height: 25px;
+  border-radius: 30px;
+}
+
+.profile-container {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding-block-start: 5px;
+  font-family: Ralew;
+}
+
+.profile-name {
+  padding-left: 10px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.profile-position {
+  padding-left: 10px;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.quotes-items-person p {
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 5px;
+}
+
+.access-container {
+  background-color: hsl(217, 28%, 15%);
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 3%;
+  align-items: center;
+  box-shadow: 5px 5px 10px hsl(216, 53%, 9%);
+}
+
+.email-header {
+  font-size: xx-large;
+  margin-bottom: 5%;
+}
+
+.email-sign-up-container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  margin-top: 5%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sign-up-field {
+  text-align: left;
+  color: lightgrey;
+  background-color: white;
+  border-radius: 30px;
+  font-size: 16px;
+  padding: 2%;
+  width: 60%;
+}
+
+.button-get-started {
+  text-align: center;
+  background-image: linear-gradient(
+    to right,
+    hsl(176, 68%, 64%),
+    hsl(198, 60%, 50%)
+  );
+  border-radius: 30px;
+  font-size: 16px;
+  padding: 2%;
+  width: 30%;
+}
+
+.button-get-started:hover {
+  background: hsl(176, 68%, 64%);
+  cursor: pointer;
+}
+
+/* footer */
+
+footer {
+  margin-top: 300px;
+  background-color: hsl(216, 53%, 9%);
+  padding: 30px;
+}
+
+.footer-container {
+  display: flex;
+  margin-top: 100px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.footer-container li {
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+.footer-location-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer-location-container img {
+  height: 15px;
+  margin-right: 25px;
+}
+
+.footer-location-text {
+  max-width: 350px;
+}
+
+.footer-fylo-logo img {
+  width: 150px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.telefon-email-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.telefon-email-container img {
+  height: 50%;
+
+  margin-right: 15px;
+}
+
+.telefon {
+  display: flex;
+  flex-direction: row;
+}
+
+.email {
+  display: flex;
+  flex-direction: row;
+}
+
+.link-list-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.link-list-container ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.link-list-container li {
+  margin-right: 20px;
+}
+
+.list-social-media {
+  display: flex;
+  flex-direction: row;
+}
+
+.list-social-media ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.list-social-media img {
+  filter: invert(100%);
+  height: 15px;
+  width: 15px;
+}
+
+.list-social-media li {
+  list-style: none;
+  display: inline-block;
+  padding: 7px;
+  margin: 20px;
+  border: 1px solid white;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+
+.list-social-media li:hover {
+  border: 1px solid hsl(176, 68%, 64%);
+}
+
+.list-social-media img:hover {
+  color: hsl(176, 68%, 64%);
+}
+
+/* media-query */
+
+@media only screen and (max-width: 375px) {
+  .quotes-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .quotes-container-elements {
+    margin-bottom: 40px;
+  }
+
+  .topnav img {
+    width: 25%;
+    height: 25%;
+  }
+
+  .topnav {
+    display: flex;
+    flex-direction: row;
+    margin: 3px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .description-intro-img img {
+    margin-bottom: 45px;
+    width: 100%;
+  }
+
+  .description-intro-heading {
+    font-size: large;
+    margin-bottom: 7%;
+  }
+
+  .description-intro-paragraph {
+    font-size: smaller;
+  }
+
+  .button-get-started-intro {
+    padding: 5%;
+    width: 80%;
+  }
+
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cards-item {
+    margin-bottom: 30%;
+  }
+
+  .explanation-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .explanation-text {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .explanation-container li {
+    padding-bottom: 8%;
+  }
+
+  .explanation-container img {
+    width: 80%;
+  }
+
+  .explanation-heading {
+    font-size: 120%;
+  }
+
+  .quote img {
+    margin-bottom: -32px;
+    margin-right: 212px;
+    width: 20%;
+  }
+
+  .quotes-container-elements {
+    margin: 5%;
+  }
+
+  .quotes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30%;
+  }
+
+  .email-sign-up-container {
+    flex-direction: column;
+  }
+
+  .email-header {
+    font-size: large;
+    margin-bottom: 8%;
+  }
+
+  .email-paragraph {
+    margin-bottom: 15%;
+  }
+
+  .sign-up-field {
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+    color: lightgrey;
+    background-color: white;
+    border-radius: 30px;
+    font-size: 12px;
+    padding: 5%;
+    width: 90%;
+    margin-bottom: 10%;
+  }
+
+  .button-get-started {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    font-size: 14px;
+    background-image: linear-gradient(
+      to right,
+      hsl(176, 68%, 64%),
+      hsl(198, 60%, 50%)
+    );
+    border-radius: 30px;
+
+    padding: 5%;
+    width: 90%;
+  }
+
+  .access-container {
+    margin: 5%;
+    padding: 8%;
+  }
+
+  footer {
+    font-family: "Raleway", sans-serif;
+    margin-top: -55%;
+  }
+
+  .footer-fylo-logo {
+    margin-top: 60%;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    margin-top: 10%;
+  }
+
+  .footer-location-container {
+    margin-bottom: 4%;
+    align-items: flex-start;
+  }
+
+  .telefon-email-container {
+    margin-bottom: 4%;
+  }
+
+  .telefon {
+    margin-bottom: 5%;
+  }
+
+  .email {
+    margin-bottom: 25%;
+  }
+
+  .link-list-container {
+    margin-bottom: 4%;
+  }
+
+  .list-social-media {
+    margin-left: 18%;
+  }
+
+  .link-list-container {
+    flex-direction: column;
+    margin-bottom: 16%;
+  }
+
+  .list-1 {
+    margin-bottom: 40%;
+  }
+}
